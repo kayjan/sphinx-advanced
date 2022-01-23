@@ -1,3 +1,4 @@
+autodocsumm  # autodoc and autosummary extensions
 numpydoc  # numpy docstring style
 sphinx
 sphinxcontrib-napoleon  # google docstring style

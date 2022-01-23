@@ -7,10 +7,18 @@ Welcome to sphinx-test's documentation!
 =======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
+   extras
+   sample_class
    sample_function
+
+:doc:`extras`
+    Documentation for additional stuff
+
+:doc:`sample_class`
+    Documentation for sample-class
 
 :doc:`sample_function`
     Documentation for sample-function
