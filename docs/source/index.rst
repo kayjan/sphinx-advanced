@@ -18,6 +18,8 @@
    :target: https://www.buymeacoffee.com/kayjan
    :alt: Buy Me a Coffee
 
+|
+
 Internal files
 ==================
 .. toctree::

@@ -74,8 +74,9 @@ CONFLUENCE_USER = os.environ.get("CONFLUENCE_USER")
 assert CONFLUENCE_KEY, "There is no API key for Confluence"
 
 confluence_publish = True
-confluence_space_name = 'SPHINXADVA'
-# (for confluence cloud)
+confluence_space_key = 'SPHINXADVA'
 confluence_server_url = 'https://kayjan.atlassian.net/wiki/'
 confluence_server_user = CONFLUENCE_USER
 confluence_server_pass = CONFLUENCE_KEY
+confluence_parent_page = 'Sphinx Documentation'
+confluence_page_hierarchy = True
