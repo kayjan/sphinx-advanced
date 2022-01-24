@@ -6,6 +6,20 @@
 .. include:: ../../README.md
    :parser: myst_parser.sphinx_
 
+.. image:: https://readthedocs.org/projects/kayjan-sphinx-advanced/badge/?version=latest
+   :target: https://kayjan-sphinx-advanced.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+.. image:: https://circleci.com/gh/kayjan/sphinx-advanced.svg?style=shield
+   :target: https://circleci.com/gh/kayjan/sphinx-advanced
+   :alt: Circle CI Status
+
+.. image:: https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label
+   :target: https://www.buymeacoffee.com/kayjan
+   :alt: Buy Me a Coffee
+
+Internal files
+==================
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
@@ -26,7 +40,6 @@
 
 External files
 ==================
-
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
@@ -35,10 +48,10 @@ External files
    files/sample-notebook
 
 :download:`Sample HTML<files/sample-html.html>`
-    Documentation for HTML file
+    Displaying HTML file
 
 :doc:`files/sample-notebook`
-    Documentation for Jupyter notebook
+    Displaying Jupyter notebook
 
 Indices and tables
 ==================

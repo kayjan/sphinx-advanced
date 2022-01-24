@@ -4,4 +4,5 @@ nbsphinx  # jupyter notebook extension
 numpydoc  # numpy docstring style
 pandoc
 sphinx
+sphinxcontrib-confluencebuilder  # confluence
 sphinxcontrib-napoleon  # google docstring style
