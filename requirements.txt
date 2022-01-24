@@ -1,4 +1,7 @@
-autodocsumm  # autodoc and autosummary extensions
+autodocsumm  # autodoc and autosummary extension
+myst_parser  # markdown text extension
+nbsphinx  # jupyter notebook extension
 numpydoc  # numpy docstring style
+pandoc
 sphinx
 sphinxcontrib-napoleon  # google docstring style

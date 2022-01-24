@@ -3,25 +3,42 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to sphinx-test's documentation!
-=======================================
+.. include:: ../../README.md
+   :parser: myst_parser.sphinx_
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
+   :hidden:
 
-   extras
-   sample_class
-   sample_function
+   files/extras
+   files/sample_class
+   files/sample_function
 
-:doc:`extras`
+:doc:`files/extras`
     Documentation for additional stuff
 
-:doc:`sample_class`
+:doc:`files/sample_class`
     Documentation for sample-class
 
-:doc:`sample_function`
+:doc:`files/sample_function`
     Documentation for sample-function
+
+External files
+==================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+   :hidden:
+
+   files/sample-notebook
+
+:download:`Sample HTML<files/sample-html.html>`
+    Documentation for HTML file
+
+:doc:`files/sample-notebook`
+    Documentation for Jupyter notebook
 
 Indices and tables
 ==================

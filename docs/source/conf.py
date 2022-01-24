@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'sphinx-test'
+project = 'sphinx-advanced'
 copyright = '2022, Kay Jan WONG'
 author = 'Kay Jan WONG'
 
@@ -30,7 +30,7 @@ release = '1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinx.ext.napoleon", "autodocsumm"]
+extensions = [ "sphinx.ext.napoleon", "autodocsumm", "nbsphinx", "myst_parser"]
 autodoc_default_options = {
     'autosummary': True
 }
