@@ -30,7 +30,13 @@ release = '1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [ "sphinx.ext.napoleon", "autodocsumm", "nbsphinx", "myst_parser", "sphinxcontrib.confluencebuilder"]
+extensions = [
+    "sphinx.ext.napoleon",
+    "autodocsumm",
+    "nbsphinx",
+    "myst_parser",
+    "sphinxcontrib.confluencebuilder",
+]
 autodoc_default_options = {
     'autosummary': True
 }

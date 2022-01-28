@@ -1,7 +1,7 @@
-autodocsumm  # autodoc and autosummary extension
-myst_parser  # markdown text extension
-nbsphinx  # jupyter notebook extension
-pandoc
+autodocsumm  # autodoc and autosummary
+myst_parser  # include markdown text
+nbsphinx  # include jupyter notebook
+pandoc  # include jupyter notebook
 sphinx
-sphinxcontrib-confluencebuilder  # confluence
-sphinxcontrib-napoleon  # google docstring style
+sphinxcontrib-confluencebuilder  # host on confluence
+sphinxcontrib-napoleon  # google and numpy docstring style
