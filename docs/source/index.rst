@@ -28,11 +28,15 @@ Internal files
    :hidden:
 
    files/extras
+   files/export
    files/sample_class
    files/sample_function
 
 :doc:`files/extras`
-    Documentation for additional stuff
+    Documentation for additional RST elements
+
+:doc:`files/export`
+    Documentation for exporting documentation
 
 :doc:`files/sample_class`
     Documentation for sample-class

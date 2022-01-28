@@ -1,4 +1,4 @@
-Extras
+Additional RST Components
 ============================================
 
 H2 text
@@ -16,6 +16,12 @@ H5 text
 H6 text
 ############################################
 
+Adding text
+--------------------------------------------
+This is a sample text: normal, *italic*, **bold**, ``verbatim``
+
+Adding code
+--------------------------------------------
 .. code:: python
 
     #!/usr/bin/env python3
@@ -27,6 +33,9 @@ H6 text
     #!/usr/bin/env bash
     make clean
     make html
+
+Adding table
+--------------------------------------------
 
 +------------+------------+-----------+
 | Header 1   | Header 2   | Header 3  |
@@ -45,7 +54,8 @@ False  False  False
 True   False  True
 =====  =====  ======
 
-
+Adding note
+--------------------------------------------
 .. seealso::
     This is a **see also** text.
 
