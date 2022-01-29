@@ -12,17 +12,18 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('../..'))
+
+sys.path.insert(0, os.path.abspath("."))
+sys.path.insert(0, os.path.abspath("../.."))
 
 # -- Project information -----------------------------------------------------
 
-project = 'sphinx-advanced'
-copyright = '2022, Kay Jan WONG'
-author = 'Kay Jan WONG'
+project = "sphinx-advanced"
+copyright = "2022, Kay Jan WONG"
+author = "Kay Jan WONG"
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = "1.0"
 
 
 # -- General configuration ---------------------------------------------------
@@ -38,12 +39,10 @@ extensions = [
     "sphinxcontrib.confluencebuilder",
     "sphinx.ext.coverage",
 ]
-autodoc_default_options = {
-    'autosummary': True
-}
+autodoc_default_options = {"autosummary": True}
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -58,21 +57,18 @@ exclude_patterns = []
 #
 # html_theme = 'alabaster'
 html_theme = "classic"
-html_theme_options = {
-    "rightsidebar": "true",
-    "relbarbgcolor": "black"
-}
-html_favicon = '../../assets/documentation-icon.svg'
-html_logo = '../../assets/favicon.ico'
+html_theme_options = {"rightsidebar": "true", "relbarbgcolor": "black"}
+html_favicon = "../../assets/documentation-icon.svg"
+html_logo = "../../assets/favicon.ico"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ["_static"]
 
 
 def setup(app):
-    app.add_css_file('custom.css')
+    app.add_css_file("custom.css")
 
 
 # Confluence setup
@@ -81,9 +77,9 @@ CONFLUENCE_USER = os.environ.get("CONFLUENCE_USER")
 assert CONFLUENCE_KEY, "There is no API key for Confluence"
 
 confluence_publish = True
-confluence_space_key = 'SPHINXADVA'
-confluence_server_url = 'https://kayjan.atlassian.net/wiki/'
+confluence_space_key = "SPHINXADVA"
+confluence_server_url = "https://kayjan.atlassian.net/wiki/"
 confluence_server_user = CONFLUENCE_USER
 confluence_server_pass = CONFLUENCE_KEY
-confluence_parent_page = 'Sphinx Documentation'
+confluence_parent_page = "Sphinx Documentation"
 confluence_page_hierarchy = True
