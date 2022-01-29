@@ -36,6 +36,7 @@ extensions = [
     "nbsphinx",
     "myst_parser",
     "sphinxcontrib.confluencebuilder",
+    "sphinx.ext.coverage",
 ]
 autodoc_default_options = {
     'autosummary': True

@@ -5,6 +5,5 @@ This will show the difference between different methods for showing documentatio
 Sample Class (using autoclass + autodocsumm)
 --------------------------------------------
 .. autoclass:: sample_class.SampleClass
-   :members:
-   :undoc-members:
-   :show-inheritance:
+    :members:
+    :show-inheritance:

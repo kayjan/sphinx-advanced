@@ -27,3 +27,7 @@ def sample_function_numpy(a, b):
        Combined result of a and b
     """
     return a + b
+
+
+def sample_function_no_docstring(a, b):
+    return a + b
